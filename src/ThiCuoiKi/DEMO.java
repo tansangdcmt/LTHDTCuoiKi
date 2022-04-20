@@ -6,11 +6,11 @@ public class DEMO {
 		// TODO Auto-generated method stub
 
 		System.out.printf("--------------- Hang Thuc Pham---------------\n");
-		HangThucPham a1 = new HangThucPham("a01", "A1", 7, 3000, 2500, "10-01-2000", "10-01-2002", "Cong Ty A1");
+		HangThucPham a1 = new HangThucPham("s001", "S1", 7, 3000, 2500, "10-01-2000", "10-01-2002", "Cong Ty A1");
 		a1.outPut();
-		HangThucPham a2 = new HangThucPham("a02", "A2", 4, 1000, 500, "15-01-2000", "15-01-2002", "Cong Ty A2");
+		HangThucPham a2 = new HangThucPham("s02", "S2", 4, 1000, 500, "15-01-2000", "15-01-2002", "Cong Ty A2");
 		a2.outPut();
-		HangThucPham a3 = new HangThucPham("a03", "A3", 5, 1500, 1000, "05-05-2000", "05-05-2002", "Cong Ty A3");
+		HangThucPham a3 = new HangThucPham("s03", "S3", 5, 1500, 1000, "05-05-2000", "05-05-2002", "Cong Ty A3");
 		a3.outPut();
 		System.out.printf("\n--------------- Hang Dien May---------------\n");
 		HangDienMay b1 = new HangDienMay("b01", "B1", 5, 10500, 10000, "2 nam", "50kw");
@@ -30,7 +30,7 @@ public class DEMO {
 		c4.outPut();
 		
 		DS a = new DS ();
-		HangHoa hh;
+		HangHoa ;
 		int chon;
 		Scanner v = new Scanner(System.in);
 		do {

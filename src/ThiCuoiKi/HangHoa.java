@@ -9,9 +9,9 @@ abstract public class HangHoa {
 	{
 		maHang = "a01";
 		tenHang = "A";
-		slTon = 10;
-		donGia = 5000;
-		Gia = 4900;
+		slTon = 50;
+		donGia = 100000;
+		Gia = 89000;
 	}
 	public HangHoa(String maHang, String tenHang, int slTon, double donGia, double Gia)
 	{
